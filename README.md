@@ -23,7 +23,7 @@ Chúng tôi so sánh hiệu năng của 3 thuật toán:
 
 ## 📂 Cấu trúc thư mục
 ```text
-JCAS-Multibeam-PSO/
+KTTT_Group33/
 ├── src/
 │   ├── python/        # Code mô phỏng chính (JCAS System)
 │   └── cpp_tests/     # Code kiểm thử thuật toán PSO (C++)
@@ -43,11 +43,22 @@ pip install -r requirements.txt
 cd src/python
 python jcas_pso.py
 ```
-### Kết quả: Chương trình sẽ xuất ra 2 file ảnh trong thư mục results (hoặc thư mục gốc):
+### Kết quả: Chương trình sẽ xuất ra 2 file ảnh trong thư mục gốc:
 
 convergence_comparison.png: So sánh tốc độ hội tụ.
 
 beampattern_result.png: Đồ thị búp sóng sau khi tối ưu.
+
+## 📊 Kết quả mô phỏng
+Dưới đây là kết quả thực tế thu được từ quá trình chạy mô phỏng:
+
+### 1. So sánh tốc độ hội tụ
+Biểu đồ so sánh giá trị hàm thích nghi (Fitness) giữa 3 thuật toán qua các vòng lặp.
+![So sánh hội tụ](results/convergence_comparison.png)
+
+### 2. Đồ thị búp sóng (Beampattern)
+Kết quả tạo búp sóng của thuật toán tốt nhất (CPSO), tập trung năng lượng vào người dùng và mục tiêu Radar.
+![Đồ thị búp sóng](results/beampattern_result.png)
 
 ## 🛠️ Hướng dẫn chạy Code C++ (Test Thuật toán)
 Các file này dùng để kiểm chứng thuật toán PSO trên các hàm test đơn giản (Benchmark functions).
