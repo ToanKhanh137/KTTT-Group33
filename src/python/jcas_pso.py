@@ -142,7 +142,6 @@ def run_pso(variant='basic'):
         history.append(G_best_score)
         
     return history, G_best
-
 # ==========================================
 # 5. CHẠY MÔ PHỎNG VÀ VẼ ĐỒ THỊ
 # ==========================================
