@@ -109,7 +109,7 @@ This project implements **Particle Swarm Optimization (PSO)** algorithms to opti
 
 ### Directory Structure
 ~~~text
-KTTT_Group33/
+JCAS-PSO-Optimization/
 ├── src/
 │   ├── python/        # JCAS Simulation Source Code
 │   └── cpp_tests/     # C++ Algorithm Verification
@@ -120,4 +120,4 @@ KTTT_Group33/
 ~~~
 
 ---
-*© 2026 KTTT_Group33 - Hanoi University of Science and Technology*
+*© 2026 JCAS-PSO-Optimization - Hanoi University of Science and Technology*
